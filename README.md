@@ -1,4 +1,5 @@
 # OpenShiftVigoChat
 Version of VigoChat on OpenShift
 
-vigochat.tk
+# Live Preview
+[VigoChat.tk](vigochat.tk)
