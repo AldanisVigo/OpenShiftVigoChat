@@ -2,4 +2,4 @@
 Version of VigoChat on OpenShift
 
 # Live Preview
-[VigoChat.tk](vigochat.tk)
+[VigoChat.tk](http://vigochat.tk)
