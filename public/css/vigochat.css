@@ -1,0 +1,269 @@
+/* NOTO COLOR EMOJI FONTS */
+/*@font-face {
+ font-family: 'NotoColorEmoji';
+ src: url('fonts/NotoColorEmoji/NotoColorEmoji.ttf')  format('truetype'); /*Chrome, Safari, Android, iOS */
+
+.vigochat_emojis{
+	/*font-family: NotoColorEmoji;*/
+	font-size: 25px;
+	max-height: 100px;
+	height: 100px;
+	overflow-y: scroll;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: block;
+	margin: auto;
+	background-color: white;
+}
+.vigochat_private_message_window_emojis{
+	border: 1px solid black;
+	font-size: 25px;
+	max-height: 285px;
+	max-width: 95px;
+	display: none;
+	background-color: white;
+	overflow-y: scroll;
+	position: absolute;
+	left: 293px;
+	top: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-shadow: 2px 0px 10px black;
+}
+.vigochat_emoji_button{
+	padding: 10px;
+	font-size: normal;
+	width: 20px;
+	height: 20px;
+	/*border: 1px solid black;*/
+	background-color: white;
+	display: inline-block;
+}
+.vigochat_emoji_button:hover{
+	cursor: pointer;
+	display: inline-block;
+}
+/* SHOW SCROLLBARS ALWAYS */
+::-webkit-scrollbar {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: gray;
+    background-color: rgba(0,0,0,.5);
+    -moz-box-shadow: 0 0 1px rgba(255,255,255,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+.vigochat_wrapper{
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #93a6b6;
+	position: relative;
+	margin: auto;
+	box-shadow: 0px 0px 10px black;
+}
+
+.vigochat_message_display{
+	letter-spacing: 0.5px;
+	word-spacing: 2px;
+	border: 1px solid black;
+	border-radius: 5px;
+	height: 200px;
+	padding: 10px;
+	word-wrap: break-word;
+	overflow-y: scroll;
+	/*background: linear-gradient(to bottom,#cde5ff, #d8deed, #cde5ff);*/
+	background-color: white;
+	font-size: x-small;
+}
+
+/*.vigochat_message_input{
+	margin: 10px 5px 10px 0px;
+	height: 50px;
+	position: relative;
+	display: inline;
+	resize: none;
+	border-radius: 5px;
+}
+*/
+.vigochat_message_input{
+	margin: 10px 5px 10px 0px;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	display: inline-block;
+	resize: none;
+	vertical-align: top;
+	width: 83%;
+	padding: 3px;
+}
+.vigochat_message_send_button{
+	display: inline;
+	border: 1px solid black;
+	width: 50px;
+	height: 50px;
+	position: relative;
+	border-radius: 5px;
+	margin: 12.5px 0px 0px 5px;
+}
+
+.vigochat_message_send_button:hover{
+	cursor: pointer;
+	background-color: #55ffab;
+}
+
+.vigochat_incoming_message{
+	border-radius: 5px;
+	background-color: #ebe1d0;
+	padding: 5px;
+	float: right;
+	color: black;
+	max-width: 80%;
+	margin-bottom: 4px;
+}
+
+.vigochat_outgoing_message{
+	border-radius: 5px;
+	background-color: #9fc1ff;
+	padding: 5px;
+	float: left;
+	color: black;
+	max-width: 80%;
+	margin-bottom: 4px;
+}
+
+.vigochat_message_wrap{
+	width: 100%;
+	padding: 2px;
+	border: 1px solid blue;
+}
+
+.vigochat_message_break{
+	clear: both;
+}
+
+.vigochat_active_users_display{
+	width: 150px;
+	background-color: white;
+	border: 1px solid black;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 3px 0px 10px black;
+	padding: 10px;
+	overflow-y: scroll;
+}
+.vigochat_connected_user{
+	font-weight: normal;
+	border: 1px solid #6a848f;
+	border-radius: 2px;
+	padding:1px 2px 1px 2px;
+	background: linear-gradient(to bottom, #ebe4ee, #8095a7 ,#ebe4ee);
+	line-height: 25px;
+}
+.vigochat_connected_user:hover{
+	cursor: pointer;
+	background: linear-gradient(to bottom, #ebe4ee, #5794ed, #ebe4ee);
+	color: white;
+}
+
+.vigochat_private_message_window{
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: #3d3f47;
+	position: relative;
+	min-width: 290px;
+	min-height: 305px;
+	box-shadow: 0px 0px 10px black;
+	padding: 0px 1px 1px 1px;
+}
+.vigochat_private_message_window_top_bar{
+	margin: 0px 0px 2px 0px;
+	/*border: 1px solid orange;*/
+	position: relative;
+	left: -1px;
+}
+
+.vigochat_private_message_window_close_button{
+	border: 1px solid black;
+	background-color: #e74650;
+	color: white;
+	border-radius: 5px;
+	padding: 2px;
+	position: relative;
+	float: right;
+	left: -2px;
+	width: 15px;
+	/*left: 367px;*/
+	margin: 2px 0px 2px 0px;
+	height: 20px;
+	text-align: center;
+	display: inline-block;
+	line-height: 20px;
+	vertical-align: middle;
+	font-size: small;
+}
+.vigochat_private_message_window_close_button:hover{
+	background-color: #dc051a;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.vigochat_private_message_window_title_bar{
+	background-color: #7f849c;
+	border-radius: 5px;
+	border: 1px solid black;
+	padding: 0px 0px 0px 0px;
+	/*font-weight: bold;*/
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 30px;
+	width: 100%;
+	color: white;
+}
+.vigochat_private_message_window_title_bar:hover{
+	cursor: pointer;
+	color: #b6cbfc;
+}
+.vigochat_private_message_window_message_display{
+	width: 93%;
+	height: 50%;
+	border: 1px solid black;
+	border-radius: 5px;
+	position: relative;
+	margin: auto;
+	background-color: white;
+	top: 10px;
+	padding: 5px;
+	overflow-y: scroll;
+	font-size: small;
+}
+.vigochat_private_message_window_message_input_wrapper{
+	/*border: 1px solid orange;*/
+	margin: 15px 5px 0px 5px;
+	position: relative;
+	height: 20%;
+}
+.vigochat_private_message_window_message_input{
+	height: 90%;
+	width: 97%;
+	resize: none;
+	padding: 3px;
+	border-radius: 5px;
+	margin:0px 0px 2px 0px;
+}
+.vigochat_show_emoji_button{
+
+}
+.vigochat_show_emoji_button:hover{
+	cursor: pointer;
+}
+.vigochat_user_list_button{
+}
+.vigochat_user_list_button:hover{
+	cursor: pointer;
+}

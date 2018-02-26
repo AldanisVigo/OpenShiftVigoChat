@@ -1,0 +1,25 @@
+{
+  "name": "vigochat_node",
+  "version": "1.0.0",
+  "description": "This is a websocket chatting/IM application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "postinstall": "cd public/js && npm install"
+  },
+  "author": "Aldanis Vigo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bufferutil": "3.0.3",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "ip": "^1.1.5",
+    "utf-8-validate": "4.0.0",
+    "ws": "4.0.0"
+  },
+  "engines": {
+    "node": "9.3.0"
+  }
+}
